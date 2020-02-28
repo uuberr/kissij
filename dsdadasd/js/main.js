@@ -33,5 +33,6 @@ for(i = 1; i <= yhteensa; i++)
 var tulokset = document.getElementById('tulokset');
 alert('Sait ' + pisteet + 'pistettä kun maksimi pistemäärä oli ' + yhteensa);
 tulokset.innerHTML = '<h3>Sait <span>' + pisteet + '</span> pistettä, kun maksimi pistemäärä oli <span>' + yhteensa + '</span></h3>';
+pisteet = 0;
 return false;
 }
